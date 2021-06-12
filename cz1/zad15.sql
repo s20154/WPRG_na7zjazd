@@ -1,0 +1,1 @@
+update Employees set EMAIL="Not available", COMMISSION_PCT=0.10 where DEPARTMENT_ID = 110;
