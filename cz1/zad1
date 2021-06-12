@@ -1,0 +1,6 @@
+sudo mysql_secure_installation
+sudo mysql
+sudo systemctl start mysql
+mysqladmin
+mysql_native_password
+
