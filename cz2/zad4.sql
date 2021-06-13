@@ -1,0 +1,1 @@
+select e.job_id, avg(salary) from Employees e join Jobs j on j.job_id = e.job_id where not e.job_id = "IT_PROG" group by e.job_id order by e.job_id asc;
